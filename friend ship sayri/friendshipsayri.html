@@ -1,0 +1,59 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Quote Box</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f9f5f0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+      }
+      .quote-box {
+        background: #fff;
+        border-left: 6px solid #8b5e3c;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px 30px;
+        max-width: 600px;
+        line-height: 1.5;
+        position: relative;
+      }
+      .quote-box::before {
+        font-size: 4rem;
+        color: #eee;
+        position: absolute;
+        top: -10px;
+        left: 10px;
+      }
+      blockquote {
+        margin: 0;
+        padding: 0;
+        font-size: 1.2rem;
+        color: #333;
+      }
+      .author {
+        text-align: right;
+        margin-top: 15px;
+        font-weight: bold;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="quote-box">
+      <blockquote>
+        Friendship ya relationship hai,<br />
+        to ego nai chahiye,,<br />
+        Aur agr ego hai to,<br />
+        dosti ya relation nahi chahiye ....
+      </blockquote>
+    </div>
+  </body>
+</html>
+<!-- @format -->
